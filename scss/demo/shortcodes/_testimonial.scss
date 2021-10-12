@@ -1,0 +1,33 @@
+.testimonial {
+	position: relative;
+	padding: 3rem;
+    background-color: $white;
+    margin-bottom: 2rem;
+
+	.testimonial-meta {
+		color: #8b8c8e;
+	}
+
+	.testmonial-social {
+		a {
+			font-family: Gilroy-Semibold;
+			font-size: 0.875rem;
+            text-transform: uppercase;
+		}
+	}
+}
+
+.testimonial-image {
+    @include media-breakpoint-up(lg) {
+        position: absolute;
+        bottom: 2rem;
+        right: 0;
+        width: 100%;
+
+        .attach-image {
+            position: absolute;
+            bottom: -3rem;
+            left: -3rem;
+        }
+    }
+}

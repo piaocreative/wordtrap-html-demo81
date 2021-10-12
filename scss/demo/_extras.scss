@@ -1,0 +1,40 @@
+/* ----------------------------------------------------------------
+	Extra Styles
+-----------------------------------------------------------------*/
+.container-fluid {
+	overflow: hidden;
+}
+
+.arrows {
+	a {
+		font-size: 1.5rem;
+	}
+
+	@include media-breakpoint-down(xxl) {
+		display: none !important;
+	}
+}
+
+.about-detail {
+	background-color: #fafafa;
+	
+	@include media-breakpoint-up(lg) {
+		position: relative;
+		top: -5rem;
+		z-index: 122341;
+		background-color: #fff;
+		width: 80%;
+		margin: auto;
+	}
+}
+
+.slick-slide {
+	height: auto;
+}
+
+.slick-dots {
+	width: 3rem;
+	display: flex;
+	bottom: -3.5rem;
+    left: 0.3rem;
+}

@@ -1,0 +1,20 @@
+/* ----------------------------------------------------------------
+
+	Contact.scss
+
+-----------------------------------------------------------------*/
+.contact-search {
+	@include media-breakpoint-up(lg) {
+		position: absolute;
+		top: 4rem;
+		width: 100%;
+	}
+}
+
+.contact-infos {
+	@include media-breakpoint-up(lg) {
+		position: absolute;
+		bottom: 4rem;
+		width: 100%;
+	}
+}

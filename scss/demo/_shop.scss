@@ -1,0 +1,200 @@
+
+/* ----------------------------------------------------------------
+
+	shop.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Shop
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for shop pages. Thanks!
+-----------------------------------------------------------------*/
+
+/* category
+-----------------------------------------------------------------*/
+.category {
+	padding: 2rem;
+	background-color: $white;
+	margin-bottom: 0.25rem;
+
+	.category-thumbnail {
+		img {
+			width: 100%;
+			min-width: 3.5rem;
+			height: auto;
+		}
+	}
+
+	.category-title {
+		font-size: 1rem;
+		font-weight: 600;
+	}
+
+	p {
+		font-size: 0.75rem;
+	}
+
+	.category-price {
+		font-family: $heading-font;
+		font-size: 1.125rem;
+
+		del {
+			font-size: 0.8125rem;
+			color: #afafaf;
+			margin-left: 5px;
+		}
+	}
+}
+
+
+/* Product
+-----------------------------------------------------------------*/
+.product {
+	position: relative;
+	margin-bottom: 0.875rem;
+
+	.product-image {
+		position: relative;
+
+		img {
+			width: 100%;
+			margin: auto;
+		}
+	}
+
+	.product-details {
+		background-color: $white;
+		border-top: 1px solid #f4f4f4;
+		padding: 2.25rem 2rem;
+		z-index: 1;
+	}
+
+	.product-price {
+		font-family: $heading-font;
+		font-size: 1.875rem;
+		letter-spacing: 0.05rem;
+		position: relative;
+
+		del {
+			font-size: 1rem;
+			position: absolute;
+			color: #afafaf;
+			top: -5px;
+			margin-left: 5px;
+		}
+	}
+
+	.product-title {
+		font-size: 1.25rem;
+		font-weight: 600;
+
+		p {
+			color: $heading-color;
+		}
+	}
+
+	.product-rating {
+		line-height: 1;
+		color: $secondary;
+		font-size: 0.875rem;
+
+		i {
+			color: #545353;
+			font-size: 0.75rem;
+
+			&.empty {
+				color: rgba(#545353, 0.5);
+			}
+		}
+	}
+
+	.product-info {
+		font-size: 0.875rem;
+
+		p {
+			color: $theme-color;
+		}
+	}
+
+	.add-to-cart {
+		font-size: 0.8125rem;
+		font-weight: 500;
+		color: $white;
+		text-transform: uppercase;
+		width: 100%;
+	}
+
+	.add-to-wishlist {
+		color: $theme-color;
+		position: absolute;
+		top: 1.5rem;
+		right: 1rem;
+	}
+
+	p {
+		color: #afafaf;
+	}
+}
+
+.onnew, .onsale {
+	font-size: 0.8125rem;
+	font-weight: 500;
+	padding: 0.1rem 1rem;
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	text-transform: uppercase;
+	border-radius: 0.3rem;
+}
+
+.onnew {
+	color: #2c7c8a;
+	background-color: #b2f0fb;
+}
+
+.onsale {
+	background-color: #ffbdbc;
+	color: #a43533;
+}
+
+.ads {
+    position: relative;
+    display: block;
+	margin-bottom: 1.5rem;
+
+    .ads-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+
+        .ads-bg-img {
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+			border-radius: 0.25rem;
+        }
+    }
+
+    .ads-body {
+        position: relative;
+        z-index: 1;
+		padding: 3rem 5rem;
+
+		h3 {
+			line-height: 1.2;
+		}
+    }
+}

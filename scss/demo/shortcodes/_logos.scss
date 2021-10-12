@@ -1,0 +1,29 @@
+.logos {
+	.logo-item {
+		position: relative;
+		max-width: 14.5rem;
+		height: 4rem;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 3rem;
+		opacity: 0.25;
+		margin: auto;
+
+		img {
+			width: auto;
+			height: auto;
+		}
+
+		&:after {
+			content: "";
+			position: absolute;
+			right: -2rem;
+			bottom: 0.5rem;
+			content: "";
+			display: inline-block;
+			width: 1px;
+			height: 3rem;
+			background-color: #3c323e;
+		}
+	}
+} 
