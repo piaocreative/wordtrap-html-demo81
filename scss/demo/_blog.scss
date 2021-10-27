@@ -28,11 +28,14 @@
 	background-color: $white;
 
 	.entry-title {
-		font-size: 1.255rem;
+		font-size: 1.25rem;
 		font-weight: 600;
+		line-height: 1.1;
 	}
 
 	.entry-meta {
+		margin-bottom: 0.65rem;
+
 		a {
 			font-size: 0.875rem;
 			color: #a29aa2;

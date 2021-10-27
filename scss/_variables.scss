@@ -12,10 +12,10 @@
 
 //-------------------- Base Colors --------------------//
 
-$theme-color:                   #020288;
-$body-color:                    #000000;
-$heading-color:                 #2a2a2a;
-$third-color:                   #2e2e2e;
+$theme-color:                  #020288;
+$body-color:                   #000000;
+$heading-color:                #2a2a2a;
+$third-color:                  #2e2e2e;
 
 //-------------------- Redefine Bootstrap Variables ------------//
 
@@ -24,7 +24,7 @@ $primary:                        $theme-color;
 $secondary:                    #a19fa1;
 $light:                        #fafafa;
 $dark:                         black;
-$success:                         #f35839;
+$success:                      #f35839;
 
 //-------------------- Font Families --------------------//
 
@@ -39,35 +39,35 @@ $grid-gutter-width:             1.875rem;
 $h1-font-size:                	5rem;
 $h2-font-size:                	3.75rem;
 $h3-font-size:                	2.5rem;
-$h4-font-size:                	1.5rem;
+$h4-font-size:                	1.5625rem;
 $h5-font-size:                	1.25rem;
 $h6-font-size:               	0.875rem;
 
 
 // border//
-$border-radius:               0.3rem;
-$border-radius-sm:            0.5rem;
-$border-radius-lg:            1rem;
-$border-radius-pill:          50rem;
+$border-radius:                 0.3rem;
+$border-radius-sm:              0.5rem;
+$border-radius-lg:              1rem;
+$border-radius-pill:            50rem;
 
 
 //-------------------- Top Bar --------------------//
 
-$topbar-color:                  #ddcef5;
-$topbar-hover-color:            #ddcef5;
+$topbar-color:                #ddcef5;
+$topbar-hover-color:          #ddcef5;
 
 
 //-------------------- Top Bar --------------------//
 
 $topbar-height:                 2.8125rem;
 $topbar-line-height:            2.75rem;
-$topbar-color:                  #adacac;
-$topbar-hover-color:            #7c7b7a;
+$topbar-color:                #adacac;
+$topbar-hover-color:          #7c7b7a;
 
 //-------------------- Primary Menu --------------------//
 
-$primary-menu-padding:					0.5rem;
-$sticky-menu-padding:					  1.40625rem;
+$primary-menu-padding:			0.5rem;
+$sticky-menu-padding:			1.40625rem;
 
 $primary-menu-font:             $body-font;
 $primary-menu-font-weight:      400;
@@ -83,8 +83,8 @@ $sticky-header-height:          5.625rem;
 
 
 // top Button
-$top-btn-font-size:        		  1rem;
-$top-btn-font-color:       		#ffffff;
+$top-btn-font-size:        		1rem;
+$top-btn-font-color:       	  #ffffff;
 
 $container-max-widths: (
   xxl: 80%
@@ -92,13 +92,13 @@ $container-max-widths: (
 
 
 //-------------------- Section --------------------//
-$section-spacer:				4.25rem;
+$section-spacer:			 	4.25rem;
 
 
 // Forms
-$input-color:                   #8f8f8f;
-$input-border-color:            #f4f4f4;
-$input-border-width:			      1px;
+$input-color:                 #8f8f8f;
+$input-border-color:          #f4f4f4;
+$input-border-width:			1px;
 $input-btn-focus-color-opacity: 1;
 
 $input-btn-padding-y:           1.125rem;
@@ -122,29 +122,17 @@ $input-border-radius:           0.3rem;
 $input-border-radius-sm:        0.3rem;
 $input-border-radius-lg:        1.83rem;
 
-$input-font-weight:				      400;
-$input-focus-box-shadow:		    0 0 0 1px #e5e8e8;
-$input-placeholder-color:       #7f7f7f;
+$input-font-weight:				400;
+$input-focus-box-shadow:		0 0 0 1px #e5e8e8;
+$input-placeholder-color:     #7f7f7f;
 
 //Selects
-$form-select-padding-y:          $input-btn-padding-y;
-$form-select-padding-x:          0;
-$form-select-border-radius:      0;
-$form-select-font-family:        $body-font;
-$form-select-font-size:          0.8rem;
-$form-select-color:            #676062;
-
-$form-check-input-width:                  1.2em;
-$form-check-min-height:                   2rem;
-$form-check-padding-start:                $form-check-input-width + .5em;
-$form-check-input-checked-color:          #ffffff;
-$form-check-input-checked-bg-color:       $theme-color;
-
-$form-check-input-bg:                     $theme-color;
-$form-check-input-border:                 1px solid rgba($theme-color, .25);
-$form-check-input-border-radius:          .25em;
-$form-check-radio-border-radius:          50%;
-
+$form-select-padding-y:         $input-btn-padding-y;
+$form-select-padding-x:         0;
+$form-select-border-radius:     0;
+$form-select-font-family:       $body-font;
+$form-select-font-size:         0.8rem;
+$form-select-color:           #676062;
 
 // Buttons
 $btn-font-family:               $heading-font;
